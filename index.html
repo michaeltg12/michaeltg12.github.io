@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael T. Giansiracusa | Professional Profile</title>
+    <style>
+        :root {
+            --primary-color: #003366;
+            --secondary-color: #0078d4;
+            --accent-color: #f0f8ff;
+            --text-color: #333;
+            --light-gray: #f4f4f4;
+            --dark-gray: #444;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+        
+        nav {
+            background-color: var(--secondary-color);
+            position: sticky;
+            top: 0;
+            padding: 10px 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        main {
+            padding: 20px 0;
+            min-height: 70vh;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light-gray);
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin: 15px 0 10px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .profile-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .section-content {
+            margin-top: 20px;
+        }
+        
+        .job, .education, .publication {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--light-gray);
+        }
+        
+        .job:last-child, .education:last-child, .publication:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title, .degree, .pub-title {
+            font-weight: bold;
+            color: var(--dark-gray);
+        }
+        
+        .job-date, .edu-date, .pub-date {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-item {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+        
+        .contact-links {
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 10px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-header">
+            <h1>Michael T. Giansiracusa</h1>
+            <p>Supercomputing Operations Specialist at Oak Ridge National Laboratory</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="section-content">
+                <p>I am a Supercomputing Operations Specialist at Oak Ridge National Laboratory with expertise in high-performance computing system administration, monitoring, and user support. I contribute to the successful operation of some of the world's most powerful supercomputers, ensuring they remain available and productive for scientific research.</p>
+                <p>With a background in computer science and physics, I specialize in developing solutions to complex technical problems, designing monitoring systems, and maintaining critical HPC infrastructure. I'm passionate about enabling scientific discovery through reliable and efficient computing resources.</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="section-content">
+                <div class="job">
+                    <h3>Oak Ridge National Laboratory</h3>
+                    <div class="job-title">Supercomputing Operations Specialist</div>
+                    <div class="job-date">2021 - Present</div>
+                    <p>As part of the National Center for Computational Sciences at ORNL, I support operations of the Oak Ridge Leadership Computing Facility, including Summit, America's fastest supercomputer. Key responsibilities include:</p>
+                    <ul>
+                        <li>Monitoring system health and responding to system failures</li>
+                        <li>Developing tools and scripts to automate operations tasks</li>
+                        <li>Supporting users in running scientific applications on HPC resources</li>
+                        <li>Administering the Prometheus monitoring system for Summit and Frontier</li>
+                        <li>Leading efforts to track and analyze system failures and downtime patterns</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <h3>Tennessee Tech University</h3>
+                    <div class="job-title">High Performance Computing Specialist</div>
+                    <div class="job-date">2019 - 2021</div>
+                    <p>Managed and maintained Tennessee Tech's high-performance computing cluster and provided specialized support for research faculty. Responsibilities included:</p>
+                    <ul>
+                        <li>Installing and configuring scientific software for researchers</li>
+                        <li>Providing technical support and training for HPC users</li>
+                        <li>Implementing monitoring solutions for system health tracking</li>
+                        <li>Managing user accounts and resource allocations</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <h3>Tennessee Tech University</h3>
+                    <div class="job-title">Systems Administrator</div>
+                    <div class="job-date">2016 - 2019</div>
+                    <p>Served as the primary systems administrator for the College of Engineering, providing technical support for faculty, staff, and labs. Key responsibilities included:</p>
+                    <ul>
+                        <li>Administering Linux and Windows servers and workstations</li>
+                        <li>Developing and implementing disaster recovery solutions</li>
+                        <li>Supporting specialized engineering software and hardware</li>
+                        <li>Coordinating with faculty to develop technical solutions for courses</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="section-content">
+                <div class="education">
+                    <h3>Tennessee Tech University</h3>
+                    <div class="degree">Master of Science in Computer Science</div>
+                    <div class="edu-date">2016 - 2019</div>
+                    <p>Specialized in High Performance Computing and Computer Systems. My graduate research focused on parallel computing, system administration, and optimization techniques for scientific computing.</p>
+                </div>
+                
+                <div class="education">
+                    <h3>Tennessee Tech University</h3>
+                    <div class="degree">Bachelor of Science in Physics and Computer Science (Double Major)</div>
+                    <div class="edu-date">2012 - 2016</div>
+                    <p>Completed a rigorous double major program combining physics and computer science, with coursework in computational physics, algorithm design, systems programming, and scientific computing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Expertise</h2>
+            <div class="section-content">
+                <h3>Technical Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-item">High-Performance Computing</span>
+                    <span class="skill-item">Scientific Programming</span>
+                    <span class="skill-item">Data Analysis</span>
+                    <span class="skill-item">Machine Learning</span>
+                    <span class="skill-item">Numerical Methods</span>
+                    <span class="skill-item">Simulation</span>
+                    <span class="skill-item">Software Development</span>
+                </div>
+                
+                <h3>Programming Languages</h3>
+                <div class="skills-container">
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">C/C++</span>
+                    <span class="skill-item">Fortran</span>
+                    <span class="skill-item">MATLAB</span>
+                    <span class="skill-item">R</span>
+                    <span class="skill-item">JavaScript</span>
+                </div>
+                
+                <h3>Tools & Frameworks</h3>
+                <div class="skills-container">
+                    <span class="skill-item">MPI</span>
+                    <span class="skill-item">OpenMP</span>
+                    <span class="skill-item">CUDA</span>
+                    <span class="skill-item">TensorFlow</span>
+                    <span class="skill-item">PyTorch</span>
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">Linux</span>
+                    <span class="skill-item">Docker</span>
+                    <span class="skill-item">Kubernetes</span>
+                    <span class="skill-item">Vault</span>
+                    <span class="skill-item">Keycloak</span>
+                    <span class="skill-item">GitLab</span>
+                    <span class="skill-item">CI/CD</span>
+                    <span class="skill-item">Kustomize</span>
+                    <span class="skill-item">Project Management</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Publications & Research</h2>
+            <div class="section-content">
+                <div class="publication">
+                    <div class="pub-title">Current Status and Future Outlook of Summit's Monitoring Infrastructure</div>
+                    <div class="pub-date">2023</div>
+                    <p>Michael T. Giansiracusa, Ross Miller, Don Maxwell, Jason Anderson. Published in the Proceedings of Cray User Group (CUG) 2023.</p>
+                </div>
+                
+                <div class="publication">
+                    <div class="pub-title">Modernizing HPC Monitoring: Case Studies from Summit and Frontier</div>
+                    <div class="pub-date">2022</div>
+                    <p>Michael T. Giansiracusa, Jason Anderson, Don Maxwell, Stephen McNally, Ross Miller. Published in the Proceedings of SC22 Workshop on Monitoring and Analysis for HPC Systems Plus Applications (HPCMASPA).</p>
+                </div>
+                
+                <div class="publication">
+                    <div class="pub-title">Tracking and Analyzing System Failures on Summit: An Experience Report</div>
+                    <div class="pub-date">2022</div>
+                    <p>Michael T. Giansiracusa, Ross Miller, Don Maxwell. Published in the Proceedings of the Practice and Experience in Advanced Research Computing Conference (PEARC '22).</p>
+                </div>
+                
+                <div class="publication">
+                    <div class="pub-title">Performance Characterization of Scientific Workloads on Tennessee Tech's HPC Cluster</div>
+                    <div class="pub-date">2020</div>
+                    <p>Michael T. Giansiracusa, Denis Ulybyshev. Tennessee Academy of Science Annual Meeting.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="section-content">
+                <p>Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work.</p>
+                <p><strong>Email:</strong> giansiracumt@ornl.gov</p>
+                <p><strong>Office:</strong> Oak Ridge National Laboratory<br>
+                4500N, Room E120-I<br>
+                Oak Ridge, TN, 37831</p>
+                <p><strong>Phone:</strong> 865-576-4668</p>
+                <p><strong>Web:</strong> <a href="http://www.arm.gov" target="_blank">www.arm.gov</a></p>
+                <p><strong>Professional Profiles:</strong></p>
+                <div class="contact-links">
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">ResearchGate</a>
+                    <a href="#" target="_blank">Google Scholar</a>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael T. Giansiracusa. All rights reserved.</p>
+        <p>Last updated: April 2024</p>
+    </footer>
+</body>
+</html>
