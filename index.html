@@ -172,13 +172,33 @@
         }
         
         .contact-links a {
-            color: white;
+            color: var(--primary-color);
             margin: 0 10px;
             text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
         }
         
         .contact-links a:hover {
-            text-decoration: underline;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .resume-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .resume-button:hover {
+            background-color: var(--secondary-color);
         }
         
         @media (max-width: 768px) {
@@ -338,6 +358,30 @@
             <h2>Publications & Research</h2>
             <div class="section-content">
                 <div class="publication">
+                    <div class="pub-title">Data Workbench For Earth and Atmospheric Science Research Community</div>
+                    <div class="pub-date">2024</div>
+                    <p>S. Goswami, K. Dumas, W. Darnell, V.T. Garbulet, M. Giansiracusa, et al. Published in 2024 IEEE International Conference on Big Data (BigData), 2320-2325.</p>
+                </div>
+
+                <div class="publication">
+                    <div class="pub-title">Enhancing Discoverability and Management of Atmospheric Data at Scale: Solutions from the ARM Data Center</div>
+                    <div class="pub-date">2024</div>
+                    <p>C. Shah, W. Darnell, H. Collier, H. Shanafield, M. Giansiracusa, G. Prakash. Published in 2024 IEEE International Conference on Big Data (BigData), 783-792.</p>
+                </div>
+
+                <div class="publication">
+                    <div class="pub-title">Integrating High-Resolution Modeling with Diverse Field Campaign Observations through an Open Science Summer School</div>
+                    <div class="pub-date">2024</div>
+                    <p>M.A. Grover, S. Collis, D. Feldman, A. Fridlind, Y.C. Feng, M. Giansiracusa, et al. Published in Bulletin of the American Meteorological Society.</p>
+                </div>
+
+                <div class="publication">
+                    <div class="pub-title">Enabling Post-campaign Processing of Single Particle Soot Photometer (SP2) Data Using PySP2 and Dask</div>
+                    <div class="pub-date">2024</div>
+                    <p>R.C. Jackson, A. Sedlacek, A. Theisen, S.M. Collis, M.A. Grover, J.R. O'Brien, et al. Published in 104th AMS Annual Meeting.</p>
+                </div>
+
+                <div class="publication">
                     <div class="pub-title">Current Status and Future Outlook of Summit's Monitoring Infrastructure</div>
                     <div class="pub-date">2023</div>
                     <p>Michael T. Giansiracusa, Ross Miller, Don Maxwell, Jason Anderson. Published in the Proceedings of Cray User Group (CUG) 2023.</p>
@@ -356,9 +400,9 @@
                 </div>
                 
                 <div class="publication">
-                    <div class="pub-title">Performance Characterization of Scientific Workloads on Tennessee Tech's HPC Cluster</div>
+                    <div class="pub-title">Atmospheric Data Community Toolkit (ACT): A Python Library for Working with Atmospheric Data</div>
                     <div class="pub-date">2020</div>
-                    <p>Michael T. Giansiracusa, Denis Ulybyshev. Tennessee Academy of Science Annual Meeting.</p>
+                    <p>A. Theisen, S. Collis, R. Jackson, Z. Sherman, N.L. Hickmon, K.E. Kehoe, et al. Published in 100th American Meteorological Society Annual Meeting.</p>
                 </div>
             </div>
         </section>
@@ -366,26 +410,29 @@
         <section id="contact">
             <h2>Contact Information</h2>
             <div class="section-content">
-                <p>Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work.</p>
+                <p>Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work. I'm particularly interested in collaborating on projects related to DevOps, supercomputing operations, and scientific computing infrastructure. Whether you're interested in my publications, seeking expertise in HPC operations, or looking to discuss potential research partnerships, I welcome professional connections and meaningful discussions about advancing computational science.</p>
                 <p><strong>Email:</strong> giansiracumt@ornl.gov</p>
                 <p><strong>Office:</strong> Oak Ridge National Laboratory<br>
                 4500N, Room E120-I<br>
                 Oak Ridge, TN, 37831</p>
                 <p><strong>Phone:</strong> 865-576-4668</p>
                 <p><strong>Web:</strong> <a href="http://www.arm.gov" target="_blank">www.arm.gov</a></p>
+                <a href="Michael Trevor Giansiracusa Resume.pdf" download class="resume-button">Download Resume (PDF)</a>
                 <p><strong>Professional Profiles:</strong></p>
                 <div class="contact-links">
-                    <a href="#" target="_blank">LinkedIn</a>
-                    <a href="#" target="_blank">ResearchGate</a>
-                    <a href="#" target="_blank">Google Scholar</a>
-                    <a href="#" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/michaelgiansiracusa" target="_blank">LinkedIn</a>
+                    <a href="https://www.researchgate.net/scientific-contributions/Michael-Giansiracusa-2137744738" target="_blank">ResearchGate</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=eTamPEUAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>
+                    <a href="https://orcid.org/0000-0001-6283-0032" target="_blank">ORCID</a>
+                    <a href="https://www.ornl.gov/staff-profile/michael-t-giansiracusa" target="_blank">ORNL Profile</a>
+                    <a href="https://code.arm.gov/giansiracusa" target="_blank">GitLab</a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Michael T. Giansiracusa. All rights reserved.</p>
+        <p>&copy; 2024 Michael T. Giansiracusa. All rights reserved. Last updated: March 2025</p>
         <p>Last updated: April 2024</p>
     </footer>
 </body>
