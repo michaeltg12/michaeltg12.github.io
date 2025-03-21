@@ -220,6 +220,10 @@ With a background in computer science and physics, I specialize in developing so
   - Published in 100th American Meteorological Society Annual Meeting
   - Citations: 1
 
+## Download Resume
+
+[![Download Resume](https://img.shields.io/badge/Download-Resume-blue)](Michael%20Trevor%20Giansiracusa%20Resume.pdf)
+
 ## Contact Information
 
 Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work. I'm particularly interested in collaborating on projects related to DevOps, supercomputing operations, and scientific computing infrastructure.
