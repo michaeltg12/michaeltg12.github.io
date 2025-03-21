@@ -1,50 +1,101 @@
 # Michael T. Giansiracusa
-### Supercomputing Operations Specialist at Oak Ridge National Laboratory
+
+## Professional Profile
+
+Supercomputing Operations Specialist at Oak Ridge National Laboratory
 
 ## About Me
+
 I am a Supercomputing Operations Specialist at Oak Ridge National Laboratory with expertise in high-performance computing system administration, monitoring, and user support. I contribute to the successful operation of some of the world's most powerful supercomputers, ensuring they remain available and productive for scientific research.
 
 With a background in computer science and physics, I specialize in developing solutions to complex technical problems, designing monitoring systems, and maintaining critical HPC infrastructure. I'm passionate about enabling scientific discovery through reliable and efficient computing resources.
 
 ## Professional Experience
 
-### Oak Ridge National Laboratory
-**Supercomputing Operations Specialist** (2021 - Present)
+### DevSecOps Engineer and Team Lead
+**The Atmospheric Radiation Measurement Data Center**
+**Oak Ridge National Laboratory** (Sept 2022 - Current)
 
-As part of the National Center for Computational Sciences at ORNL, I support operations of the Oak Ridge Leadership Computing Facility, including Summit, America's fastest supercomputer. Key responsibilities include:
-- Monitoring system health and responding to system failures
-- Developing tools and scripts to automate operations tasks
-- Supporting users in running scientific applications on HPC resources
-- Administering the Prometheus monitoring system for Summit and Frontier
-- Leading efforts to track and analyze system failures and downtime patterns
+- POC for High Performance Computing (HPC) team
+- Team Lead and Infrastructure Designer of DevSecOps team
+- Lead the effort to port 20-year-old legacy code and builds to modern DevOps standards
+- Lead architect of self-hosted GitLab pipelines and secure deployment strategies
+- Outreach coordinator for onboarding staff to DevOps principles and designs
+- Lead maintainer and mentor for production data retrievals team
+- Consultant and maintainer of containerized Jupyter Hub based Data Workbench deployed on local Kubernetes infrastructure
+- Consult for reprocessing team and mentor leaders in that team
 
-### Tennessee Tech University
-**High Performance Computing Specialist** (2019 - 2021)
+### Scientific Software Engineer
+**The Atmospheric Radiation Measurement Data Center**
+**Oak Ridge National Laboratory** (Sept 2018 - Sept 2022)
 
-Managed and maintained Tennessee Tech's high-performance computing cluster and provided specialized support for research faculty. Responsibilities included:
-- Installing and configuring scientific software for researchers
-- Providing technical support and training for HPC users
-- Implementing monitoring solutions for system health tracking
-- Managing user accounts and resource allocations
+- Member of High Performance Computing (HPC) team
+- Mentor and Lead Designer of Reprocessing team
+- Operational data engineering on instrument level data for quality assurance
+- Lead architect of automated reprocessing workflow
+- GitLab architect for reprocessing team
+- GitOps developer for deployment on Virtual Machines (VMs)
+- Developed client-side automation for ARMLive API
+- Lead maintainer and mentor for production data retrievals team
+- Lead developer of Kafka based Twitter bot for community outreach
+- Manage system for reprocessing and client data delivery systems
 
-**Systems Administrator** (2016 - 2019)
+### Post Bachelors Research Associate (ORAU)
+**The Atmospheric Radiation Measurement Data Center**
+**Oak Ridge National Laboratory** (Sept 2017 - Aug 2018)
 
-Served as the primary systems administrator for the College of Engineering, providing technical support for faculty, staff, and labs. Key responsibilities included:
-- Administering Linux and Windows servers and workstations
-- Developing and implementing disaster recovery solutions
-- Supporting specialized engineering software and hardware
-- Coordinating with faculty to develop technical solutions for courses
+- Member of reprocessing team
+- Operational data correction on instrument level data for quality assurance
+- Contributed to the development of an updated reprocessing workflow
+- Created reprocessing toolbox to standardize and automate routine reprocessing tasks
+- Contributed to cluster level parallel processing implementation Dask client
+- Developed client-side automation for ARMLive API
+
+### Higher Education Research Experiences (HERE) Intern
+**Oak Ridge National Laboratory** (June 2017 - Aug 2017)
+
+- Worked in a team on web development
+- Used machine learning, Python, and neural networks
+- Conducted research and development on two projects
+- Error detection algorithm for live sensor data
+- Basket analysis of user preferences for suggested products
+
+### Air Force Research Lab Internship & Contractor
+**Air Force Research Lab - Information Directorate, Rome, NY** (May 2016 - May 2017)
+
+- Conduct research on deep convolutional neural networks using CAFFE and TensorFlow
+- Built and maintained a high-performance computing platform
+- Co-Authored and published four conference papers on image processing
+- Worked with a team researching image processing and large scale data analytics
+
+### Computer Science Department Tutor
+**Indiana University of Pennsylvania** (Jan 2016 - May 2017)
+
+- Tutored Computer Science students in Java, MIPS, and X86 Assembly and Matlab
+
+### Biological Science Technician
+**United States Department of Agriculture – Agriculture Research Service** (July 2014 - Aug 2015)
+
+- Worked in Dr. William Meikle's research lab
+- Installed and maintained solar-powered sensor systems with data loggers for a honey bee research group
+- Developed novel robotic Arduino based hive access device
 
 ## Education
 
-### Tennessee Tech University
-**Master of Science in Computer Science** (2016 - 2019)
+### Indiana University of Pennsylvania
+**Bachelor of Science in Computer Science** (Sept 2017)
+- Major: Computer Science – Languages and Systems track
+- Accredited by the Computing Accreditation Commission of ABET
+- Minor: Mathematics
 
-Specialized in High Performance Computing and Computer Systems. My graduate research focused on parallel computing, system administration, and optimization techniques for scientific computing.
+### Pima Community College
+**Associates in Electrical and Computer Engineering** (May 2016)
+- Major: Electrical and Computer Engineering
+- Minor: Mathematics
 
-**Bachelor of Science in Physics and Computer Science (Double Major)** (2012 - 2016)
-
-Completed a rigorous double major program combining physics and computer science, with coursework in computational physics, algorithm design, systems programming, and scientific computing.
+### Awards and Recognition
+- Awarded Barry Day Outstanding Computer Science Student Scholarship 2016
+- Received Best in Class award for COSC 300 – Assembly Language in 2016
 
 ## Skills & Expertise
 
@@ -84,42 +135,52 @@ Completed a rigorous double major program combining physics and computer science
 
 ## Publications & Research
 
-**Data Workbench For Earth and Atmospheric Science Research Community** (2024)  
-S. Goswami, K. Dumas, W. Darnell, V.T. Garbulet, M. Giansiracusa, et al. Published in 2024 IEEE International Conference on Big Data (BigData), 2320-2325.
+### 2024
+- **Data Workbench For Earth and Atmospheric Science Research Community**
+  - S. Goswami, K. Dumas, W. Darnell, V.T. Garbulet, M. Giansiracusa, et al.
+  - Published in 2024 IEEE International Conference on Big Data (BigData), 2320-2325
 
-**Enhancing Discoverability and Management of Atmospheric Data at Scale: Solutions from the ARM Data Center** (2024)  
-C. Shah, W. Darnell, H. Collier, H. Shanafield, M. Giansiracusa, G. Prakash. Published in 2024 IEEE International Conference on Big Data (BigData), 783-792.
+- **Enhancing Discoverability and Management of Atmospheric Data at Scale: Solutions from the ARM Data Center**
+  - C. Shah, W. Darnell, H. Collier, H. Shanafield, M. Giansiracusa, G. Prakash
+  - Published in 2024 IEEE International Conference on Big Data (BigData), 783-792
 
-**Integrating High-Resolution Modeling with Diverse Field Campaign Observations through an Open Science Summer School** (2024)  
-M.A. Grover, S. Collis, D. Feldman, A. Fridlind, Y.C. Feng, M. Giansiracusa, et al. Published in Bulletin of the American Meteorological Society.
+- **Integrating High-Resolution Modeling with Diverse Field Campaign Observations through an Open Science Summer School**
+  - M.A. Grover, S. Collis, D. Feldman, A. Fridlind, Y.C. Feng, M. Giansiracusa, et al.
+  - Published in Bulletin of the American Meteorological Society
 
-**Enabling Post-campaign Processing of Single Particle Soot Photometer (SP2) Data Using PySP2 and Dask** (2024)  
-R.C. Jackson, A. Sedlacek, A. Theisen, S.M. Collis, M.A. Grover, J.R. O'Brien, et al. Published in 104th AMS Annual Meeting.
+- **Enabling Post-campaign Processing of Single Particle Soot Photometer (SP2) Data Using PySP2 and Dask**
+  - R.C. Jackson, A. Sedlacek, A. Theisen, S.M. Collis, M.A. Grover, J.R. O'Brien, et al.
+  - Published in 104th AMS Annual Meeting
 
-**Current Status and Future Outlook of Summit's Monitoring Infrastructure** (2023)  
-Michael T. Giansiracusa, Ross Miller, Don Maxwell, Jason Anderson. Published in the Proceedings of Cray User Group (CUG) 2023.
+### 2023
+- **Current Status and Future Outlook of Summit's Monitoring Infrastructure**
+  - Michael T. Giansiracusa, Ross Miller, Don Maxwell, Jason Anderson
+  - Published in the Proceedings of Cray User Group (CUG) 2023
 
-**Modernizing HPC Monitoring: Case Studies from Summit and Frontier** (2022)  
-Michael T. Giansiracusa, Jason Anderson, Don Maxwell, Stephen McNally, Ross Miller. Published in the Proceedings of SC22 Workshop on Monitoring and Analysis for HPC Systems Plus Applications (HPCMASPA).
+### 2022
+- **Modernizing HPC Monitoring: Case Studies from Summit and Frontier**
+  - Michael T. Giansiracusa, Jason Anderson, Don Maxwell, Stephen McNally, Ross Miller
+  - Published in the Proceedings of SC22 Workshop on Monitoring and Analysis for HPC Systems Plus Applications (HPCMASPA)
 
-**Tracking and Analyzing System Failures on Summit: An Experience Report** (2022)  
-Michael T. Giansiracusa, Ross Miller, Don Maxwell. Published in the Proceedings of the Practice and Experience in Advanced Research Computing Conference (PEARC '22).
+- **Tracking and Analyzing System Failures on Summit: An Experience Report**
+  - Michael T. Giansiracusa, Ross Miller, Don Maxwell
+  - Published in the Proceedings of the Practice and Experience in Advanced Research Computing Conference (PEARC '22)
 
-**Atmospheric Data Community Toolkit (ACT): A Python Library for Working with Atmospheric Data** (2020)  
-A. Theisen, S. Collis, R. Jackson, Z. Sherman, N.L. Hickmon, K.E. Kehoe, et al. Published in 100th American Meteorological Society Annual Meeting.
+### 2020
+- **Atmospheric Data Community Toolkit (ACT): A Python Library for Working with Atmospheric Data**
+  - A. Theisen, S. Collis, R. Jackson, Z. Sherman, N.L. Hickmon, K.E. Kehoe, et al.
+  - Published in 100th American Meteorological Society Annual Meeting
 
 ## Contact Information
 
-Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work. I'm particularly interested in collaborating on projects related to DevOps, supercomputing operations, and scientific computing infrastructure. Whether you're interested in my publications, seeking expertise in HPC operations, or looking to discuss potential research partnerships, I welcome professional connections and meaningful discussions about advancing computational science.
+Feel free to reach out for professional inquiries, research collaboration opportunities, or questions about my work. I'm particularly interested in collaborating on projects related to DevOps, supercomputing operations, and scientific computing infrastructure.
 
-**Email:** giansiracumt@ornl.gov
-
-**Office:**  
-Oak Ridge National Laboratory  
-4500N, Room E120-I  
-Oak Ridge, TN, 37831
-
-**Web:** [www.arm.gov](http://www.arm.gov)
+- **Email:** giansiracumt@ornl.gov
+- **Office:** Oak Ridge National Laboratory
+  - 4500N, Room E120-I
+  - Oak Ridge, TN, 37831
+- **Phone:** 865-576-4668
+- **Web:** [www.arm.gov](http://www.arm.gov)
 
 ### Professional Profiles
 - [LinkedIn](https://www.linkedin.com/in/michaelgiansiracusa)
@@ -130,7 +191,5 @@ Oak Ridge, TN, 37831
 - [GitLab](https://code.arm.gov/giansiracusa)
 
 ---
-© 2024 Michael T. Giansiracusa. All rights reserved. Last updated: March 2025
 
-# michaeltg12.github.io
-My personal website
+© 2024 Michael T. Giansiracusa. All rights reserved. Last updated: April 2024
