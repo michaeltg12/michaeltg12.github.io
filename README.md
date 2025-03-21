@@ -114,16 +114,18 @@ With a background in computer science and physics, I specialize in developing so
 - Fortran
 - MATLAB
 - R
+- Golang
 - JavaScript
 
 ### Tools & Frameworks
 - MPI
+- Slurm
 - OpenMP
 - CUDA
 - TensorFlow
 - PyTorch
 - Git
-- Linux
+- RHEL, Rocky Linux, CentOS, etc.
 - Docker
 - Kubernetes
 - Vault
@@ -152,24 +154,71 @@ With a background in computer science and physics, I specialize in developing so
   - R.C. Jackson, A. Sedlacek, A. Theisen, S.M. Collis, M.A. Grover, J.R. O'Brien, et al.
   - Published in 104th AMS Annual Meeting
 
-### 2023
-- **Current Status and Future Outlook of Summit's Monitoring Infrastructure**
-  - Michael T. Giansiracusa, Ross Miller, Don Maxwell, Jason Anderson
-  - Published in the Proceedings of Cray User Group (CUG) 2023
+### 2019
+- **Provenance–aware workflow for data quality management and improvement for large continuous scientific data streams**
+  - J. Kumar, M.C. Crow, R. Devarakonda, M. Giansiracusa, K. Guntupally, et al.
+  - Published in 2019 IEEE International Conference on Big Data (Big Data), 3260-3266
+  - Citations: 8
 
-### 2022
-- **Modernizing HPC Monitoring: Case Studies from Summit and Frontier**
-  - Michael T. Giansiracusa, Jason Anderson, Don Maxwell, Stephen McNally, Ross Miller
-  - Published in the Proceedings of SC22 Workshop on Monitoring and Analysis for HPC Systems Plus Applications (HPCMASPA)
+- **Modern, microservices based web-applications for accessing atmospheric data: ARM Data Center Example**
+  - R. Devarakonda, K. Guntupally, M.C. Crow, W. Darnell, K.K. Dumas, et al.
+  - Published in AGU Fall Meeting Abstracts 2019, IN31C-0807
 
-- **Tracking and Analyzing System Failures on Summit: An Experience Report**
-  - Michael T. Giansiracusa, Ross Miller, Don Maxwell
-  - Published in the Proceedings of the Practice and Experience in Advanced Research Computing Conference (PEARC '22)
+### 2018
+- **Machine learning and social media to mine and disseminate big scientific data**
+  - R. Devarakonda, M. Giansiracusa, J. Kumar
+  - Published in 2018 IEEE International Conference on Big Data (Big Data), 5312-5315
+  - Citations: 4
+
+### 2017
+- **Social media based NPL system to find and retrieve ARM data: Concept paper**
+  - R. Devarakonda, M. Giansiracusa, J. Kumar, H. Shanafield
+  - Published in 2017 IEEE International Conference on Big Data (Big Data), 4736-4737
+  - Citations: 3
+
+- **Double-density and dual-tree based methods for image super resolution**
+  - M. Giansiracusa, E. Blasch, P. Singerman, S. Ezekiel
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VII 10199, 123-138
+
+- **General linear hypothesis test: a method for algorithm selection**
+  - P. Singerman, E. Blasch, M. Giansiracusa, S. Ezekiel
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VII 10199, 121-137
+
+- **Matrix sketching for big data reduction (Conference Presentation)**
+  - S. Ezekiel, M. Giansiracusa
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VII 10199, 122-122
+
+### 2016
+- **A comparative study of multi-scale image super-resolution techniques**
+  - M. Giansiracusa, S. Ezekiel, J. Raquepas, E. Blasch, M. Thomas
+  - Published in 2016 IEEE Applied Imagery Pattern Recognition Workshop (AIPR), 1-7
+  - Citations: 1
+
+- **Multi-focus and multi-modal fusion: a study of multi-resolution transforms**
+  - M. Giansiracusa, A. Lutz, S. Ezekiel, M. Alford, E. Blasch, A. Bubalo, et al.
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VI 9841, 64-73
+  - Citations: 3
+
+- **A comparative study of multi-focus image fusion validation metrics**
+  - M. Giansiracusa, A. Lutz, N. Messer, S. Ezekiel, M. Alford, E. Blasch, et al.
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VI 9841, 74-82
+  - Citations: 2
+
+- **Optimal multi-focus contourlet-based image fusion algorithm selection**
+  - A. Lutz, M. Giansiracusa, N. Messer, S. Ezekiel, E. Blasch, M. Alford
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VI 9841, 48-55
+  - Citations: 5
+
+- **Bandelet-based image fusion: a comparative study for multi-focus images**
+  - M. Giansiracusa, A. Lutz, N. Messer, S. Ezekiel, E. Blasch, M. Alford
+  - Published in Geospatial Informatics, Fusion, and Motion Video Analytics VI 9841, 56-63
+  - Citations: 3
 
 ### 2020
 - **Atmospheric Data Community Toolkit (ACT): A Python Library for Working with Atmospheric Data**
   - A. Theisen, S. Collis, R. Jackson, Z. Sherman, N.L. Hickmon, K.E. Kehoe, et al.
   - Published in 100th American Meteorological Society Annual Meeting
+  - Citations: 1
 
 ## Contact Information
 
