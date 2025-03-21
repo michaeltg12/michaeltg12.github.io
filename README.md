@@ -2,7 +2,7 @@
 
 ## Professional Profile
 
-Supercomputing Operations Specialist at Oak Ridge National Laboratory
+Principal DevSecOps Architect & Strategic Team Lead
 
 ## About Me
 
