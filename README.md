@@ -6,9 +6,9 @@ Principal DevSecOps Architect & Strategic Team Lead
 
 ## About Me
 
-I am a Supercomputing Operations Specialist at Oak Ridge National Laboratory with expertise in high-performance computing system administration, monitoring, and user support. I contribute to the successful operation of some of the world's most powerful supercomputers, ensuring they remain available and productive for scientific research.
+With over six years of experience and three leadership roles at Oak Ridge National Laboratory, I am a driven technical leader specializing in DevSecOps, high-performance computing, and data engineering. My expertise spans backend development in Python, Go, Java and other languages, with a proven track record of modernizing legacy systems and building robust data pipelines. As the current DevSecOps Team Lead at the Atmospheric Radiation Measurement Data Center, I spearhead initiatives in GitLab pipeline architecture, Kubernetes deployments, and team mentorship.
 
-With a background in computer science and physics, I specialize in developing solutions to complex technical problems, designing monitoring systems, and maintaining critical HPC infrastructure. I'm passionate about enabling scientific discovery through reliable and efficient computing resources.
+I hold a Bachelor's degree in Computer Science from Indiana University of Pennsylvania with a focus on Languages and Systems, complemented by an Associate's degree in Electrical and Computer Engineering. My diverse technical background includes experience with machine learning, robotics, and scientific computing, enabling me to bridge the gap between cutting-edge technology and practical solutions. I'm passionate about fostering team growth and delivering innovative solutions that drive scientific discovery.
 
 ## Professional Experience
 
