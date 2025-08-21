@@ -229,6 +229,10 @@ I hold a Bachelor's degree in Computer Science from Indiana University of Pennsy
   - Overview of HPC infrastructure and computational resources at the ARM Data Center
   - [Watch on YouTube](https://youtu.be/3NWdw74mAqM)
 
+- **ARM High Performance Computing Webinar**
+  - September 2023
+  - [Watch on YouTube](https://youtu.be/3NWdw74mAqM)
+
 ## Download Resume
 
 [![Download Resume](https://img.shields.io/badge/Download-Resume-blue)](Michael%20Trevor%20Giansiracusa%20Resume.pdf)
